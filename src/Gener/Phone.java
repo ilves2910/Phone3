@@ -1,28 +1,13 @@
-package Interf;
+package Gener;
 
-public abstract class Phone implements Callable, Informable {
+/* Д/з изменить в проекте с Phone интерфейсы Callable и Informable на использование generic,
+применить интерфейсы к абстрактному классу Phone и классам-наследникам. */
+
+public abstract class Phone implements Callable<String>, Informable<String> {
 
     private String number;
     private String model;
     private int weight;
-    private String Name;
-/*
-public Phone() {
-        System.out.println("dz6.Phone is created");
-    }
-
-*/
-    public String getName() {
-        return Name;
-    }
-
-    public Phone(String number, String model, int weight, String Name)
-    {
-        this.number = number;
-        this.model = model;
-        this.weight = weight;
-        this.Name = Name;
-    }
 
     // Конструктор с 3 параметрами
     public Phone(String number, String model, int weight)
@@ -50,6 +35,11 @@ public Phone() {
         return number;
     }
 
+    public void RecieveCall(String Name)
+    {
+        System.out.printf("Звонит: %s\n", Name);
+    }
+
     public void setNumber(String number) {
         this.number = number;
     }
@@ -70,13 +60,6 @@ public Phone() {
         this.weight = weight;
     }
 
-
-       public void receivecall(String Name)
-        {
-            System.out.printf("Call: %s\n", Name);
-        }
-
-        public abstract void info();
-
+    public abstract void info();
 }
 
