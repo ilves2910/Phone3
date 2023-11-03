@@ -6,7 +6,6 @@ Informable c default методом info() с default реализацией, п
 
 public interface Callable {
 
-
-       void receivecall();
+         void receivecall(String Name);
 
        }
