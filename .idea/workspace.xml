@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a82c2f4-ecb5-4399-b165-23e4f9f1077a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Gener/ApplePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gener/Callable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gener/Informable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gener/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gener/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gener/SamsungPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Gener/XiaomiPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfac/ApplePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfac/Callable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfac/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfac/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfac/SamsungPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfac/XiaomiPhone.java" afterDir="false" />
+    <list default="true" id="1a82c2f4-ecb5-4399-b165-23e4f9f1077a" name="Changes" comment="4">
+      <change afterPath="$PROJECT_DIR$/src/Iskluch/ApplePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iskluch/Callable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iskluch/Informable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iskluch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iskluch/NameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iskluch/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iskluch/SamsungPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Iskluch/XiaomiPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interf/ApplePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interf/ApplePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interf/Callable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interf/Callable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interf/Informable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interf/Informable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gener/Callable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gener/Callable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gener/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gener/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Interf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interf/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interf/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interf/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interf/SamsungPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interf/SamsungPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interf/XiaomiPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interf/XiaomiPhone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,16 +39,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Елена/Desktop/Java/Phone3/src/dz&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Елена/Desktop/Java/Array/.gitignore"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Елена\Desktop\Java\Phone3\src\Iskluch" />
       <recent name="C:\Users\Елена\Desktop\Java\Phone3\src\Interfac" />
       <recent name="C:\Users\Елена\Desktop\Java\Phone3\src" />
     </key>
@@ -69,8 +68,23 @@
       <workItem from="1698698448268" duration="199000" />
       <workItem from="1698859377906" duration="4707000" />
       <workItem from="1698866477172" duration="733000" />
-      <workItem from="1699004246237" duration="1538000" />
+      <workItem from="1699004246237" duration="14379000" />
     </task>
+    <task id="LOCAL-00001" summary="3">
+      <created>1699005893988</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699005893988</updated>
+    </task>
+    <task id="LOCAL-00002" summary="4">
+      <created>1699005982187</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699005982187</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,5 +100,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3" />
+    <MESSAGE value="4" />
+    <option name="LAST_COMMIT_MESSAGE" value="4" />
   </component>
 </project>

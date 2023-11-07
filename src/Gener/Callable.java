@@ -4,6 +4,6 @@ package Gener;
 
 public interface Callable<T>  {
 
-         void RecieveCall(String Name);
+         void RecieveCall(T Name);
 
        }
